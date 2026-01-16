@@ -1,6 +1,6 @@
 [
   {
-    "teor": 1,0,
+    "teor": 1.0,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -22,7 +22,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 1,1,
+    "teor": 1.1,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -44,7 +44,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 1,2,
+    "teor": 1.2,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -66,7 +66,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 1,3,
+    "teor": 1.3,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -88,7 +88,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 1,4,
+    "teor": 1.4,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -110,7 +110,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 1,5,
+    "teor": 1.5,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -132,7 +132,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 1,6,
+    "teor": 1.6,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -154,7 +154,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 1,7,
+    "teor": 1.7,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -176,7 +176,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 1,8,
+    "teor": 1.8,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -198,7 +198,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 1,9,
+    "teor": 1.9,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -220,7 +220,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 2,0,
+    "teor": 2.0,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -242,7 +242,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 2,1,
+    "teor": 2.1,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -264,7 +264,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 2,2,
+    "teor": 2.2,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -286,7 +286,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 2,3,
+    "teor": 2.3,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -308,7 +308,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 2,4,
+    "teor": 2.4,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -330,7 +330,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 2,5,
+    "teor": 2.5,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -352,7 +352,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 2,6,
+    "teor": 2.6,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -374,7 +374,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 2,7,
+    "teor": 2.7,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -396,7 +396,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 2,8,
+    "teor": 2.8,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -418,7 +418,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 2,9,
+    "teor": 2.9,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
@@ -440,7 +440,7 @@
     "vacuo_jameson02": "-16"
   },
   {
-    "teor": 3,0,
+    "teor": 3.0,
     "taxa": "250 - 400",
     "ph_rougher": "9,7 - 10,2",
     "ph_cleaner": "11 - 11,5",
