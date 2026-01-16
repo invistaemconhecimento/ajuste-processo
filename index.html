@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parâmetros de Flotação - Sistema de Consulta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-industry"></i> Sistema de Consulta de Parâmetros de Flotação</h1>
+            <p class="subtitle">Informe o teor da alimentação para consultar os parâmetros operacionais correspondentes</p>
+        </header>
 
+        <main>
+            <div class="search-section">
+                <div class="input-group">
+                    <label for="teor"><i class="fas fa-percentage"></i> Teor da Alimentação (%):</label>
+                    <div class="input-with-button">
+                        <input type="number" id="teor" min="1" max="3" step="0.1" value="1.5" placeholder="Ex: 1.5">
+                        <button id="consultar-btn">
+                            <i class="fas fa-search"></i> Consultar
+                        </button>
+                    </div>
+                    <p class="input-info">Valores aceitos: de 1.0 a 3.0 (incremento de 0.1)</p>
+                </div>
+
+                <div class="slider-container">
+                    <label for="teor-slider">Ou selecione com o controle deslizante:</label>
+                    <div class="slider-wrapper">
+                        <input type="range" id="teor-slider" min="10" max="30" value="15" step="1">
+                        <div class="slider-value" id="slider-value">1.5</div>
+                    </div>
+                    <div class="slider-labels">
+                        <span>1.0</span>
+                        <span>2.0</span>
+                        <span>3.0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="result-section" id="result-section">
+                <div class="result-header">
+                    <h2><i class="fas fa-chart-line"></i> Parâmetros para Teor: <span id="teor-value">1.5%</span></h2>
+                    <div class="status-indicator">
+                        <div class="status-dot"></div>
+                        <span id="status-text">Dados carregados</span>
+                    </div>
+                </div>
+
+                <div class="results-container">
+                    <!-- Resultados serão inseridos aqui via JavaScript -->
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h3><i class="fas fa-info-circle"></i> Informações sobre a tabela de parâmetros</h3>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-flask"></i> Reagentes</h4>
+                        <p>As dosagens de coletor e espumante são calculadas automaticamente com base no teor da alimentação usando fórmulas específicas.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4><i class="fas fa-tint"></i> Flotação</h4>
+                        <p>Os parâmetros de flotação rougher e cleaner/scavenger são ajustados conforme a faixa de teor.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4><i class="fas fa-compress-arrows-alt"></i> Jameson</h4>
+                        <p>As células Jameson têm parâmetros específicos para otimização da recuperação.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Sistema de consulta baseado na tabela "Parâmetros de flotação" | Desenvolvido para operação de planta</p>
+            <p class="footer-note"><i class="fas fa-exclamation-triangle"></i> Nota: Valores são referenciais e podem ser ajustados conforme condições operacionais.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
